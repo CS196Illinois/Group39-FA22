@@ -1,8 +1,14 @@
-# Group TEAM_NUMBER
-Group Name: TEAM_NAME
+# Group 39
+Group Name: Team39
 
 [MVP Link](http://cs196.cs.illinois.edu)
 
-Team Members: STUDENTS_NETIDS
+Team Members:
+- nzhan2
+- shreya29
+- scrai3
+- egonz33
+- yanzelu2
 
-Project Manager: PM_NETID
+
+Project Manager: Saloni Vaishnav (saloniv2)
