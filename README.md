@@ -1,7 +1,7 @@
 # Group 39
 Group Name: Team39
 
-[MVP Link](http://cs196.cs.illinois.edu)
+[MVP Link](https://docs.google.com/document/d/1wXyM7LHWZafFTkb3RgtzrTTtzKPA8mFu967YPKTvqgI/edit)
 
 Team Members:
 - nzhan2
