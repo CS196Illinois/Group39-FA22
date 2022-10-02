@@ -1,0 +1,8 @@
+tutorial 1
+React.component - creates new component class
+props- parameters in a component
+react components are encapsulated and structured using <div>
+button - <button> creates a button
+data can be passed though props and accessed using this.props.value
+onClick- prop to check when an object is clicked
+this.state - stores the state of the react component
