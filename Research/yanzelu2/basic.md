@@ -1,3 +1,4 @@
+# Research for week 1
 ## JavaScript basics
 
 - DOM：（Document object Model）
@@ -43,5 +44,4 @@ for example:
 ## REACT
 **React tools：React + React-Router + Redux + Axios + Babel + Webpack**
 
-## FIGMA
-a design tool
+
