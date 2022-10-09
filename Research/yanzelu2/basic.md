@@ -1,4 +1,4 @@
-# Research for week 1
+# Research for sprint 1
 ## JavaScript basics
 
 - DOM：（Document object Model）
@@ -45,3 +45,9 @@ for example:
 **React tools：React + React-Router + Redux + Axios + Babel + Webpack**
 
 
+# Research for sprint 2
+
+## React continue
+https://developer.mozilla.org/zh-CN/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started
+
+- use figma to first design the pages.
