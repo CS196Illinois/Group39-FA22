@@ -1,0 +1,18 @@
+Sprint 1:
+    JavaScript Notes Notion Link:
+    https://www.notion.so/JavaScript-Notes-ce8a82d942ad421297c5165417835ced
+
+    Efforts:
+    * speed working though codecademy JS lessons
+    * still trying to understand React code stuff
+
+Sprint 2:
+    New Notion link to all my web notes:
+        https://fate-snowdrop-547.notion.site/Web-Dev-Learning-e7dc038701304263a494893c488ce0f3
+    Note: 
+        HTML Notes and CSS Notes were both things I did over the summer.
+    
+    Efforts: 
+    * Now 76% through free Codecademy JS tutorials
+    * Found a pretty good tutorial on React to work on:
+        https://www.youtube.com/watch?v=w7ejDZ8SWv8&t=874s
