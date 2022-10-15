@@ -177,3 +177,35 @@ class Clock extends React.Component {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Clock />);
 
+// Handling events (Buttons)
+// provide listener when event initially rendered
+class Toggle extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {isToggleOn: true};
+    // make "this" work in the callback -- if don't bind, then this is undefined
+    this.handleClick = this.handleClick.bind(this);
+    /*
+    // or can do this
+    handleClick = () => {
+      console.log('this is:', this);
+    };
+    */
+  }
+  
+  handleClick() {
+    this.setState(prevState => ({
+      isToggleOn : !prevState.isToggleOn
+    }));
+  }
+  render() {
+    return (
+      <button onClick={this.handleClick}>
+        {this.state.isToggleOn ? 'ON' : 'OFF'}
+      </button>
+    );
+  }
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Toggle />);
