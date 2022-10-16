@@ -1,1 +1,17 @@
+React Router Tutorial
+Intro
 
+Installatin - use StackBlitz
+(Could also use a bundler)
+Connecting the URL - (connect app to browser's URL)
+Add Some Links - import Links 
+Add Some Routes-
+Nested Routes- Nest the routes inside of the app route, Render an outlet.
+Listing the invoices- Import Invoices
+Adding a "No Match" Route- always handle a no match case
+Reading URL params- Normally would be prop; Create a new <Route> inside of the invoices route
+Index Routes- we can fix blank space with Index Routes
+Active Links- Use 'Link' instead of 'NavLink'; style from object to function that returns Object;
+Search Params- 'useSearchParams' (shows and sets the state in the URL), this is similar to 'React.useState()'
+Custom Behavior- Links can be styled as active or inactive
+Navigating Programmatically- 'useLocation' 'location.search'
