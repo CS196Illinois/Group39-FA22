@@ -16,3 +16,15 @@ Sprint 2:
     * Now 76% through free Codecademy JS tutorials
     * Found a pretty good tutorial on React to work on:
         https://www.youtube.com/watch?v=w7ejDZ8SWv8&t=874s
+
+Sprint 3:
+    Notion link from before still is it:
+        * started adding to my React notes
+    
+    Efforts:
+        * Tried to open up a branch and try to create a main page and discovered
+        * that I don't know squat.
+
+        * Now I'm working on the React codecademy tutorial for a bit
+        * and what I've been learning is in the notes.
+    
