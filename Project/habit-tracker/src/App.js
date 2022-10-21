@@ -7,17 +7,8 @@ function App() {
     return user;
   }
 
-
-
-
-
   return (
 
-
-
-
-
-    
     <div className="Container">
         <div> {/* vector stuff */}
           <Vector id='V2' file={'Project\habit-tracker\public\Vector 2.png'} />
@@ -27,10 +18,15 @@ function App() {
           <Vector id='V6' file={'Project\habit-tracker\public\Vector 6.png'} />
         </div>
 
-
         <Header title={'Habit Tracker'} />
         <h2>Welcome {'Savior'}</h2> {/* should make into component */}
+
+        <div className = "streaks">
+          
+        </div>
     </div>
+
+    
   );
 }
 
