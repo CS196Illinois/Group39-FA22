@@ -39,3 +39,12 @@ Sprint 4:
         * try and figure out how adding other boxes would work so that I can understand
           and collab with team buddies
         * (Maybe) add more components and see how login might work
+
+Sprint 5:
+    Efforts: 
+        * nothing much honestly, busy week with classes
+        * investigated possibility of nav bar and smooth scrolling like I saw in other presentations
+        * broke and then fixed my project directory (too much experminatation)
+    
+    Goals for Next Time:
+        * same as last time, but I'd also like to see how to extend the page
