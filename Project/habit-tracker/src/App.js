@@ -22,7 +22,9 @@ function App() {
         <h2>Welcome {'Savior'}</h2> {/* should make into component */}
 
         <div className = "streaks">
+          <div className = "buttons">
           
+          </div>
         </div>
     </div>
 
