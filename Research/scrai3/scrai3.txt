@@ -48,3 +48,12 @@ Sprint 5:
     
     Goals for Next Time:
         * same as last time, but I'd also like to see how to extend the page
+
+Sprint 6:
+    Efforts:
+        * learned CSS more
+        * fixed up the CSS on the page
+        * learned how to import font families off the web
+    
+    Goals for Next Time:
+        * find something else to do
