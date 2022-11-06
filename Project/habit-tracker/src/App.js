@@ -21,9 +21,14 @@ function App() {
         <Header title={'Habit Tracker'} />
         <h2>Welcome {'Savior'}</h2> {/* should make into component */}
 
-        <div className = "streaks">
-          <div className = "buttons">
-          
+/* Clement's part on components 4 */
+        <div id= "streaks">
+          <div id= "secondInnerBox">
+            <div class = "circle"></div>
+            <p id = "subtitleup">Highest Streak</p>
+            <div id = "rectangularbox">
+              
+            </div>
           </div>
         </div>
     </div>

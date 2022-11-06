@@ -93,3 +93,67 @@ transform: matrix(0.98, -0.2, -0.2, -0.98, 0, 0);
   border: 194px solid #EDD8BA;
   transform: rotate(-32.03deg);
 }
+
+/*clement's part*/
+#streaks {
+position: absolute;
+width: 582px;
+height: 752px;
+left: 783px;
+top: 178px;
+
+background: rgba(255, 255, 255, 0.52);
+box-shadow: -13px 4px 16px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(13.5px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 32px;
+}
+
+#secondInnerBox {
+position: absolute;
+width: 503px;
+height: 628px;
+left: 39px;
+top: 62px;
+
+background: #F5F2F2;
+border-radius: 18px;
+}
+
+.circle {
+position: absolute;
+width: 172px;
+height: 167px;
+left: 75px;
+top: 109px;
+
+background: #D9D9D9;
+}
+
+#subtitleup {
+position: absolute;
+width: 221px;
+height: 36px;
+left: 291px;
+top: 80px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+
+color: #2B5138;
+}
+
+#rectangularbox {
+position: absolute;
+width: 222px;
+height: 143px;
+left: 291px;
+top: 121px;
+
+background: #D9D9D9;
+border-radius: 16px;
+}
