@@ -27,4 +27,33 @@ Sprint 3:
 
         * Now I'm working on the React codecademy tutorial for a bit
         * and what I've been learning is in the notes.
+
+Sprint 4:
+    Efforts:
+        * Did another section of the React tutorial on Codecademy
+        * some of the figma vectors to appear on the page (though it looks a bit goofy)
+        * got the CSS file to actually apply to the vector components
+
+    Goals for Next Time:
+        * guess and check my way to the components being in the right spot
+        * try and figure out how adding other boxes would work so that I can understand
+          and collab with team buddies
+        * (Maybe) add more components and see how login might work
+
+Sprint 5:
+    Efforts: 
+        * nothing much honestly, busy week with classes
+        * investigated possibility of nav bar and smooth scrolling like I saw in other presentations
+        * broke and then fixed my project directory (too much experminatation)
     
+    Goals for Next Time:
+        * same as last time, but I'd also like to see how to extend the page
+
+Sprint 6:
+    Efforts:
+        * learned CSS more
+        * fixed up the CSS on the page
+        * learned how to import font families off the web
+    
+    Goals for Next Time:
+        * find something else to do
