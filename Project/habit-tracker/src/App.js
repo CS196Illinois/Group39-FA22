@@ -27,8 +27,12 @@ function App() {
             <div class = "circle"></div>
             <p id = "subtitleup">Highest Streak</p>
             <div id = "rectangularbox">
-              
+              //unimplemeted
             </div>
+            <div id = "smallgreenrect"></div>
+            <div id = "rewardbutton1"></div>
+            <div id = "rewardbutton2"></div>
+            <div id = "rewardbutton3"></div>
           </div>
         </div>
     </div>
