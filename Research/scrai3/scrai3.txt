@@ -57,3 +57,8 @@ Sprint 6:
     
     Goals for Next Time:
         * find something else to do
+
+Sprint 7:
+    Efforts:
+        * got stuck on changing borders/padding/margin on vectors to get them to hang off the page at the bottom
+        * continued doin the codecademy react tutorials

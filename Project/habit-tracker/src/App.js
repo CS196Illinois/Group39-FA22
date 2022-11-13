@@ -16,14 +16,14 @@ function App() {
   return (
 
     <div className="Container">
-      <div> {/* vector stuff */}
+      <div className='page'> {/* vector stuff */}
         <Vector id='V2' file={v2} alt={'v2'} />
         <Vector id='V3' file={v3} alt={'v3'} />
         <Vector id='V3-2' file={v3} alt={'v3-2'} />
         <Vector id='V4' file={v4} alt={'v4'} />
         <Vector id='V5' file={v5} alt={'v5'}/>
       </div>
-      <div>
+      <div className='page'>
         <Header title={'Habit Tracker'} />
         <HeaderTwo text={'Welcome'} name={user('Developer')} /> {/* IDK what I'm doing with this component yet */}
       </div>
