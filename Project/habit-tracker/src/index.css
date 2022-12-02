@@ -1,99 +1,389 @@
-* { 
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
-  box-sizing: border-box;
-}
-
-/* Applies to page */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 body {
-  position: relative;
-  width: 100%;
-  height: 1900px; 
-
-  /* For hiding the vertical scroll bar while still having scroll ability.
-   * Different lines of code for different browsers.
-   */
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  overflow-y: scroll;
-
-  background: #234A30;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2B5138;
 }
 
-/* Also for hiding the scroll bar (for Chrome, Safari, and Opera) */
-body::-webkit-scrollbar {
-  display: none;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
-/* Header Component */
+/*
 p.head {
-  position: absolute;
-  width: 1000px;
-  left: 40px;
-  
-  line-height: 180px;
-  z-index: 5; /* z-index is the order that stuff is ontop of each other. Big number = more on top. */
-  color: #F5F2F2;
+  position: relative;
+  width: 1161px;
+  height: 203px;
+  left: 42px;
+  top: 5px;
 
-  /* I got Inter of of google fonts.
-   * Look at the index.html file in public dir to find where I import it.
-   */
-  font-family: 'Inter', sans-serif;
-
+  font-family: 'Inter';
+  font-style: normal;
   font-weight: 400;
-  font-size: 70px;
+  font-size: 30px;
+  line-height: 30px;
+
+  color: black;   /* #F5F2F2 */
+  /*
 }
-
-/* HeaderTwo Component */
-p.head2 {
-  position: absolute;
-  z-index: 5;
-}
-
-
-/* The Vectors */
+*/
 
 #V2 {
+  box-sizing: border-box;
+
   position: absolute;
-  width: 750px;
-  height: 600px;
-  top: 640px;
-  z-index: 3;
+  width: 498.83px;
+  height: 857.36px;
+  left: 296.9px;
+  top: 562px;
+  
+  border: 194px solid #EDD8BA;
+  transform: matrix(-0.85, 0.53, 0.53, 0.85, 0, 0);
 }
 
 #V3 {
+  box-sizing: border-box;
+  
   position: absolute;
   width: 771.29px;
-  height: 1100px;
-  left: -110px;
-  top: 50px;
-  z-index: 1;
-}
+  height: 1099.43px;
+  left: -247px;
+  top: 357.93px;
 
-#V3-2 {
-  position: absolute;
-  width: 771.29px;
-  height: 1100px;
-  left: 190px;
-  top: 700px;
-  transform: rotate(160deg);
-  z-index: 1;
+  border: 219px solid #A88F6C;
+  transform: rotate(-33.08deg);
 }
 
 #V4 {
-  position: absolute;
-  width: 550px;
-  height: 800px;
-  left: 1250px;
-  top: -200px;
-  z-index: 1;
+box-sizing: border-box;
+
+position: absolute;
+width: 416px;
+height: 731px;
+left: 1149.8px;
+top: 439.18px;
+
+border: 194px solid #EDD8BA;
+transform: matrix(0.98, -0.2, -0.2, -0.98, 0, 0);
 }
 
 #V5 {
+  box-sizing: border-box;
+
   position: absolute;
-  width: 500px;
-  height: 850px;
-  left: 1000px;
-  top: 1000px;
+  width: 498.83px;
+  height: 857.36px;
+  left: 62.9px;
+  top: -527px;
+  
+  border: 194px solid #EDD8BA;
+  transform: matrix(-0.85, 0.53, 0.53, 0.85, 0, 0);
 }
+
+#V6 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 492.97px;
+  height: 824.98px;
+  left: 899px;
+  top: 723.45px;
+  
+  border: 194px solid #EDD8BA;
+  transform: rotate(-32.03deg);
+}
+
+
+
+
+
+
+/*            NEW CODE          */
+
+.modal-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  transform: translateZ(0);
+  background-color: rgb(0, 0, 0, 0.5);
+  /*background-color: black;*/
+}
+
+
+.modal-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1000px;
+  height: 1000px;
+  padding: 2.5em 1.5em 1.5em 1.5em;
+  background-color: #ffffff;
+  box-shadow: 0, 0, 100px, 3px, rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+@media screen and (min-width: 500px) {
+  .modal-area {
+    left: 50%;
+    top: 50%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    max-width: 30em;
+    max-height: calc(100% - 1em);
+  }
+}
+
+
+._modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5em;
+  line-height: 1;
+  background: #ffffff;
+  border: 0;
+  box-shadow: 0;
+  cursor: pointer;
+}
+
+._modal-close-icon {
+  width: 25px;
+  height: 25px;
+  fill: transparent;
+  stroke: black;
+  stroke-linecap: round;
+  stroke-width: 2;
+}
+
+.modal-body {
+  padding-top: 0.25em;
+}
+
+._hide-visual {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+/* Previous Habit Streaks: */
+.headerText {
+  /*position: absolute;*/
+  /*
+  width: 334px;
+  height: 36px;
+  left: 15%;
+  top: 82px;
+  */
+  margin-top: 5%;
+  margin-left: 20%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  
+  color: #2B5138;
+  
+}
+
+
+input, select {
+  position: relative;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 1% 20%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 32px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #234A30;
+  color: white;
+  padding: 14px 20px;
+  margin: 1% 20%;
+  margin-bottom: 10%;
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #102115;
+}
+
+/* Frame 1 */
+.addHabit {
+  position: absolute;
+  width: 618px;
+  height: 651px;
+  left: 111px;
+  top: 208px;
+  
+  background: rgba(255, 255, 255, 0.53);
+  mix-blend-mode: normal;
+  box-shadow: -13px 4px 16px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(13.5px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 32px;
+}
+
+
+
+/* Rectangle 15 */
+.habitTracker {
+  position: absolute;
+  width: 491px;
+  height: 329px;
+  left: 81px;
+  top: 67px;
+  z-index: -1;
+  
+  background: #F5F2F2;
+  border-radius: 14px;
+}
+
+
+
+/* Ellipse 6 */
+.currentStreak {
+  position: absolute;
+  width: 232px;
+  height: 238px;
+  left: 33px;
+  top: 32px;
+  border-radius: 50%;
+  
+  background: #A88F6C;
+  box-shadow: -13px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* 17 */
+
+/*
+******Header text CSS
+
+position: absolute;
+width: 68px;
+height: 77px;
+left: 115px;
+top: 89px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 77px;
+
+color: #FFFFFF;
+
+*/
+
+.textHeader {
+  /*position: absolute;*/
+  margin-top: 80px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 39px;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+.text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+
+
+/* Frame 3 */
+.habitProgressBar {
+  margin-left: 150px;
+  height: 200px;
+  overflow: auto;
+}
+
+
+
+
+/* Habit #1 */
+/*
+**** text for habit name
+position: absolute;
+width: 63px;
+height: 19px;
+left: 18px;
+top: 8px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+*/
+
+
+/* Rectangle 19 */
+.addHabitButton {
+  /*position: relative;*/
+  width: 401px;
+  height: 53px;
+  margin-left: 30px;
+  margin-top: 40px;
+  
+  background: #D9D9D9;
+  border-radius: 22px;
+}
+
+
+
+/* Add Habit */
+.addHabitText {
+  /*position: absolute;*/
+  width: 95px;
+  height: 24px;
+  left: 279px;
+  top: 314px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  
+  color: #234A30;
+  
+}
+
+
