@@ -14,7 +14,7 @@ export default function RecordList() {
     const [records, setRecords] = useState([]);
 
     // fetch records from database
-    useEffect(() => {
+    useEffect(() => {cd 
         async function getRecords() {
             const response = await fetch(`http://localhost:8080/record/`);
 
